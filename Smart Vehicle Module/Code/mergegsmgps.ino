@@ -384,5 +384,6 @@ String dataMessage = ("Temperature is: " + String(temp)+"Carbon Dioxide in air i
    
   delay(100);
    mySerial.println((char)26);// ASCII code of CTRL+Z
-  delay(3000);
+  delay(2000);
 }
+
